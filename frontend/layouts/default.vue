@@ -1,54 +1,42 @@
 <template>
   <div class="cover-page">
     <slot />
-    <div class="footer-content">
-      <!-- Ajout de votre nom à gauche -->
-      <div>
-        <p class="text-white font-bold">&lt;WASSIM SAFAA /&gt;</p>
+    <div class="contact-item fixed bottom-0 left-0 right-0 bg-blue-950 p-4 flex justify-around">
+      <div class="flex items-center text-white">
+        <FontAwesomeIcon :icon="faEnvelope" class="fa-xl mr-2" />
+        <a href="mailto:safaawassim01@gmail.com">safaawassim01@gmail.com</a>
       </div>
-      <!-- Réseaux sociaux au milieu -->
-      <div class="contact-item ">
-        <!-- Logo du mail -->
-        <div class="contact-item">
-          <p>📧</p>
-          <p class="text-white">safaawassim01@gmail.com</p>
-        </div>
-        <!-- Logo LinkedIn -->
-        <div class="contact-item">
-          <img src="../assets/linkedin.webp" alt="LinkedIn" width="50px">
-          <a class="text-white" href="https://www.linkedin.com/in/wassim-safaa-8380b426a/">linkedin.com/wassimsafaa</a>
-        </div>
-        <!-- Logo du numéro de téléphone -->
-        <div class="contact-item">
-          <p>📞</p>
-          <p class="text-white">+33 0766815371</p>
-        </div>
+      <div class="flex items-center text-white">
+        <FontAwesomeIcon :icon="faLinkedin" class="fa-xl mr-2" />
+        <a href="https://www.linkedin.com/in/wassim-safaa-8380b426a/" class="text-white">linkedin.com/wassimsafaa</a>
+      </div>
+      <div class="flex items-center text-white">
+        <FontAwesomeIcon :icon="faPhone" class="fa-lg mr-2" />
+        <p class="text-white">+33 07 66 81 53 71</p>
       </div>
     </div>
   </div>
 </template>
 
+<script setup lang="ts">
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
+</script>
+
 <style>
 .cover-page {
-  background-color: black;
   background-size: cover;
-  background-repeat: repeat;
-  background-position: center;
+  background: linear-gradient(to bottom, black, #061a3c, #000033) repeat center;
   scroll-behavior: smooth;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 20px;
-  margin-left: 20px;
+  position: relative;
+  min-height: 100vh;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  justify-content: center; /* Centrage horizontal */
+  justify-content: space-around;
   padding: 10px;
 }
 
