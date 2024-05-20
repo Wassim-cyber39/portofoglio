@@ -5,11 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5350d950-557b-4cae-b44f-3b14d1dc500c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/Bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/JavaScript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/NuxtJS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/WordPress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/angular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/django.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/htmlcss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/linkedin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/linkedin.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/mysqlphp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/nestjs.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/layouts/default.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/pages/project.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/project.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/project.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,20 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/wassi/OneDrive/Documents/projet-1er/portofoglio/frontend/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\WebStorm 2024.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wassi/OneDrive/Documents/projet-1er/portofoglio/frontend/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2024.1.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;vuejs.nuxt.types-notification-shown&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wassi\OneDrive\Documents\projet-1er\portofoglio\frontend\assets" />
@@ -65,6 +80,13 @@
       <workItem from="1713459118966" duration="2699000" />
       <workItem from="1713470561426" duration="4000" />
       <workItem from="1713472955182" duration="11310000" />
+      <workItem from="1714691044388" duration="2000" />
+      <workItem from="1715187768461" duration="17000" />
+      <workItem from="1715286258326" duration="8611000" />
+      <workItem from="1715442140471" duration="14049000" />
+      <workItem from="1715726447212" duration="2000" />
+      <workItem from="1716150502699" duration="3199000" />
+      <workItem from="1716195824365" duration="899000" />
     </task>
     <servers />
   </component>

@@ -1,50 +1,75 @@
 <template>
-  <div class="cover-page">
-    <slot />
-    <div class="contact-item fixed bottom-0 left-0 right-0 bg-blue-950 p-4 flex justify-around">
-      <div class="flex items-center text-white">
-        <FontAwesomeIcon :icon="faEnvelope" class="fa-xl mr-2" />
-        <a href="mailto:safaawassim01@gmail.com">safaawassim01@gmail.com</a>
+  <div class="main-container">
+    <div class="navbar">
+      <div class="profile">
+
       </div>
-      <div class="flex items-center text-white">
-        <FontAwesomeIcon :icon="faLinkedin" class="fa-xl mr-2" />
-        <a href="https://www.linkedin.com/in/wassim-safaa-8380b426a/" class="text-white">linkedin.com/wassimsafaa</a>
+      <div class="links">
+        <a href="#home" class="link">Home</a>
+        <a href="#about" class="link">About</a>
+        <a href="#skills" class="link">Skills</a>
+        <a href="#contact" class="link">Contact</a>
       </div>
-      <div class="flex items-center text-white">
-        <FontAwesomeIcon :icon="faPhone" class="fa-lg mr-2" />
-        <p class="text-white">+33 07 66 81 53 71</p>
-      </div>
+    </div>
+    <div class="content">
+      <slot />
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import {faEnvelope, faPhone} from "@fortawesome/free-solid-svg-icons";
-import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
-</script>
-
 <style>
-.cover-page {
-  background-size: cover;
-  background: linear-gradient(to bottom, black, #061a3c, #000033) repeat center;
-  scroll-behavior: smooth;
-  position: relative;
-  min-height: 100vh;
+.main-container {
+  background-color: #233831; /* Couleur de fond principale */
 }
 
-.contact-item {
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px; /* Ajustez la hauteur de la barre de navigation */
+  justify-content: space-between;
+  display: flex;
+  color: white; /* Texte en blanc */
+  background: linear-gradient(rgba(35, 56, 49, 0), rgba(35, 56, 49, 0.5)); /* Dégradé transparent */
+  z-index: 1000; /* Assurez-vous que la barre de navigation soit au-dessus du contenu */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre */
+}
+
+
+
+.profile {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 10px;
+  margin-left: 20px; /* Ajouter une marge à gauche pour l'espace */
 }
 
-.contact-item img {
+.profile-picture {
+  width: 40px; /* Ajustez la taille de votre photo */
+  height: 40px; /* Ajustez la taille de votre photo */
+  border-radius: 50%;
   margin-right: 10px;
 }
 
-.contact-item p {
-  margin: 0;
+.profile-name {
+  margin-right: 20px; /* Ajouter une marge à droite pour l'espace */
 }
+
+
+
+.links {
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 </style>
+<script setup lang="ts">
+</script>
