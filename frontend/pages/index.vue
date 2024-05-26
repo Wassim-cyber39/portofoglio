@@ -402,7 +402,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 const currentPage = ref(1);
 const pageCount = ref(4);
 </script>
