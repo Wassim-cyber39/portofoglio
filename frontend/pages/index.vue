@@ -162,6 +162,37 @@
   opacity: 1;
   animation: wheel 1.3s infinite;
 }
+@media only screen and (max-width: 768px) {
+  /* Styles pour les appareils mobiles */
+  .text1 {
+    width: 100%;
+    padding: 0 20px; /* Ajouter un espacement sur les côtés */
+    text-align: center;
+  }
+
+  .mouse {
+    display: none; /* Masquer le bouton de défilement pour les téléphones */
+  }
+
+  .about2,
+  .skill2 {
+    flex-direction: column; /* Réorganiser les sections en colonne */
+  }
+
+  .about-image,
+  .skills-image {
+    display: none; /* Masquer les images sur les téléphones */
+  }
+
+  .skill-content,
+  .about-content {
+    padding: 20px; /* Réduire le rembourrage */
+  }
+
+  .main-footer__text {
+    font-size: 1rem; /* Réduire la taille de la police */
+  }
+}
 
 @keyframes wheel {
   0% {
