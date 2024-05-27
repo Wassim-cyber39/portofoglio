@@ -1,5 +1,4 @@
 <template>
-  <SpeedInsights />
   <div class="main-container">
     <div class="navbar">
       <div class="profile">
@@ -16,6 +15,7 @@
       <slot />
     </div>
   </div>
+  <SpeedInsights />
 </template>
 
 <style>
